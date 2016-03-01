@@ -1,13 +1,33 @@
 {
-	"name": "wificar",
-	"version": "0.0.1",
-	"dependencies":	{
-		"johnny-five": "latest",
-		"temporal": "latest",
-		"keypress": "latest",
-		"firmata": "latest",
-		"udp-serial": "latest",
-		"dualshock-controller": "latest",
-		"j5-songs": "latest"
-	}
+  "name": "wifi-arduino-nodebot",
+  "version": "1.0.0",
+  "description": "A wifi controled nodebot",
+  "main": "car.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raskaman/wifi-arduino-nodebot.git"
+  },
+  "keywords": [
+    "node.js",
+    "johnny",
+    "five",
+    "nodebot",
+    "arduino",
+    "esp8266"
+  ],
+  "author": "John Mondragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raskaman/wifi-arduino-nodebot/issues"
+  },
+  "homepage": "https://github.com/raskaman/wifi-arduino-nodebot#readme",
+  "dependencies": {
+    "dualshock-controller": "^0.6.9",
+    "firmata": "^0.9.0",
+    "johnny-five": "^0.9.27",
+    "udp-serial": "^0.1.2"
+  }
 }
